@@ -17,24 +17,70 @@
 
 /* HEADER */
 header {
-    height: 70px;
-    background-color: #add8e6; /* #255ee9 */
+    height: 100px;
+    background-color: #255ee9 ;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .navigation-bar {
-    display: flex;
+    /* Debug */
     background-color: #daa520;
+    /* /Debug */
+    display: flex;
+    width: 80%;
 }
 
 .navigation-bar > div {
     padding: 5px;
 }
 
-.logo , .login {
+.logo {
     width: 25%;
+    height: 40px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.header-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-links ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.login {
+    width: 25%;
+    text-align: center;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+}
+
+.login a:hover {
+    background-color: lightgrey;
+    color: white;
 }
 
 .header-links {
@@ -62,23 +108,30 @@ header {
 
 
 .landing-menu {
+    /* Debug */
+    /* background-color: #ee82ee; */
+    /* /Debug */
     height: 70%;
     width: 50%;
-    background-color: #ee82ee;
     text-align: center;
-    display: flex; /* Aggiunto */
-    justify-content: center; /* Aggiunto */
-    align-items: center; /* Aggiunto per allineare verticalmente */
-
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
 }
 
 .landing-menu > h1 {
     color: white;
+    margin-bottom: 30px;
+    font-size: 45px;
 }
 
 .landing-menu > p {
     color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
+
 
 /* PAGES */
 
