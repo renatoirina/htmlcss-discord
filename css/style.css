@@ -25,9 +25,6 @@ header {
 }
 
 .navigation-bar {
-    /* Debug */
-    background-color: #daa520;
-    /* /Debug */
     display: flex;
     width: 80%;
 }
@@ -61,7 +58,6 @@ header {
     color: white;
 }
 
-
 .login {
     width: 25%;
     text-align: center;
@@ -93,7 +89,6 @@ header {
 }
 
 /* MAIN */
-
 /* LANDING */
 .landing {
     background-color: #255ee9;
@@ -106,17 +101,13 @@ header {
     align-items: center;
 }
 
-
 .landing-menu {
-    /* Debug */
-    /* background-color: #ee82ee; */
-    /* /Debug */
     height: 70%;
     width: 50%;
     text-align: center;
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
@@ -132,28 +123,86 @@ header {
     letter-spacing: 1px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.buttons a {
+    margin: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+}
+
+.button-white, .button-black {
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-white {
+    background-color: white;
+    color: black;
+}
+
+.button-black {
+    background-color: black;
+    color: white;
+}
 
 /* PAGES */
-
 .page {
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .b-grey {
-    background-color: lightgray;
+    background-color: #f6f6f6;
 }
 
 .artwork {
     background-color: #1e90ff;
-    height: 70%;
+    height: 80%;
     width: 60%;
 }
 
+.artwork .chat-organization {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Altezza massima della finestra di visualizzazione */
+}
+
+.chat-organization img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.chat-organization h2, .chat-organization p {
+    text-align: left;
+    padding: 15px;
+}
+
+.chat-organization h2 {
+    font-size: 45px;
+}
+
+.chat-organization p {
+    font-size: 20px;
+}
+
+
 .infotext {
-    height: 70%;
+    height: 80%;
     width: 40%;
     background-color: lightpink;
 }
@@ -163,7 +212,6 @@ header {
 }
 
 /* COPY */
-
 .bigpage {
     height: 800px;
     display: flex;
