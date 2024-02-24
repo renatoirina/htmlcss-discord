@@ -10,10 +10,10 @@
     width: 60%;
 }
 
-/* COMMON */
-.dashed-lines {
+/* DEBUG */
+/* .dashed-lines {
     border: 2px dashed black;
-}
+} */
 
 /* HEADER */
 header {
@@ -50,7 +50,7 @@ header {
 
 .header-links ul li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .header-links ul li a {
@@ -113,7 +113,8 @@ header {
 
 .landing-menu > h1 {
     color: white;
-    margin-bottom: 30px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     font-size: 45px;
 }
 
@@ -129,7 +130,7 @@ header {
     align-items: flex-start;
     flex-direction: row;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .buttons a {
@@ -137,9 +138,10 @@ header {
     height: 40px;
     line-height: 40px;
     border-radius: 20px;
+    margin-top: 1rem;
 }
 
-.button-white, .button-black {
+.button-white, .button-black, .button-blue {
     display: inline-block;
     padding: 0 20px;
     border-radius: 5px;
@@ -157,9 +159,14 @@ header {
     color: white;
 }
 
+.button-blue {
+    background-color: #7289da;
+    color: white;
+}
+
 /* PAGES */
 .page {
-    height: 500px;
+    height: 525px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,41 +177,40 @@ header {
 }
 
 .artwork {
-    background-color: #1e90ff;
+    /* background-color: #1e90ff; */
     height: 80%;
     width: 60%;
 }
 
-.artwork .chat-organization {
+.artwork .image-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Altezza massima della finestra di visualizzazione */
+    height: 100%;
 }
 
-.chat-organization img {
+.image-text img {
     max-width: 100%;
     max-height: 100%;
 }
 
-.chat-organization h2, .chat-organization p {
+.image-text h2, .image-text p {
     text-align: left;
     padding: 15px;
 }
 
-.chat-organization h2 {
-    font-size: 45px;
+.image-text h2 {
+    font-size: 2.81rem;
 }
 
-.chat-organization p {
-    font-size: 20px;
+.image-text p {
+    font-size: 1.25rem;
 }
-
 
 .infotext {
     height: 80%;
     width: 40%;
-    background-color: lightpink;
+    /* background-color: lightpink; */
 }
 
 .reverse {
@@ -213,15 +219,44 @@ header {
 
 /* COPY */
 .bigpage {
-    height: 800px;
+    height: 65rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tecnology img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tecnology h2, .tecnology p {
+    text-align: center;
+    padding: 15px;
+}
+
+.tecnology h2 {
+    font-size: 2.81rem;
+}
+
+.tecnology p {
+    font-size: 1.25rem;
+}
+
+.tecnology > h3 {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.5rem;
+    height: 3rem;
 }
 
 .copy {
     height: 85%;
-    background-color: green;
+    width: 90%;
+    /* background-color: green; */
 }
 
 /* FOOTER */
