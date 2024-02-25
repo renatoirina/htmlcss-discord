@@ -275,10 +275,9 @@ header {
 
 /* FOOTER_1 */
 .footer_1 {
-    height: 80%;
+    height: 87%;
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid white;
 }
 
 .about {
@@ -328,7 +327,7 @@ header {
 }
 
 .links {
-    width: calc(100% / 4);
+    width: 30%;
     text-align: left;
     margin-right: 5rem;
 }
@@ -358,7 +357,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    border-bottom: 2px solid white;
 }
 
 .signup {
