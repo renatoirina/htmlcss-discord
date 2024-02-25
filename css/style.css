@@ -10,6 +10,10 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 60%;
 }
@@ -288,12 +292,12 @@ header {
 
 .social {
     display: flex;
+    flex-direction: row;
     width: 25%;
     height: 100%;
     /* background-color: #f08080; */
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: left;
 }
 
 .social img {
@@ -320,10 +324,28 @@ header {
 .faq {
     width: 70%;
     display: flex;
+    margin-left: 5rem;
 }
 
 .links {
     width: calc(100% / 4);
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.links > li {
+    padding-bottom: 1rem;
+}
+
+.links .categories {
+    font-size: 1rem;
+    color: white;
+}
+
+.links .title {
+    color: #7289da;
+    font-size: 1rem;
+    padding-bottom: 1rem;
 }
 
 .faq .links {
