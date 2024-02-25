@@ -43,7 +43,7 @@ header {
 
 .logo {
     width: 25%;
-    height: 40px;
+    height: 35px;
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -130,6 +130,7 @@ header {
     color: white;
     font-size: 20px;
     letter-spacing: 1px;
+    margin-bottom: 2rem;
 }
 
 .buttons {
@@ -138,7 +139,7 @@ header {
     align-items: flex-start;
     flex-direction: row;
     width: 100%;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .buttons a {
@@ -146,13 +147,14 @@ header {
     height: 40px;
     line-height: 40px;
     border-radius: 20px;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 .button-white, .button-black, .button-blue {
     display: inline-block;
+    height: 2rem;
     padding: 0 20px;
-    border-radius: 5px;
+    border-radius: 1rem;
     text-decoration: none;
     text-align: center;
 }
@@ -259,6 +261,7 @@ header {
     background-position: center;
     font-size: 1.5rem;
     height: 3rem;
+    margin-bottom: 2rem;
 }
 
 .copy {
@@ -347,29 +350,39 @@ header {
     padding-bottom: 1rem;
 }
 
-.faq .links {
+/* DEBUG */
+/* .faq .links {
     border: 1px dashed white;
-}
+} */
 
 /* Secondo footer */
 .footer-2 {
     height: 20%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
+    background-color: #23272a;
+}
+
+.divider {
+    border: 1px solid #7289da83;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .signup {
-    background-color: aquamarine;
+    /* DEBUG */
+    /* background-color: aquamarine; */
     height: 70px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .signup > div {
-    background-color: lightpink;
-    width: 10%;
+    /* DEBUG */
+    /* background-color: lightpink; */
     text-align: center;
-    padding: 5px;
 }
+
